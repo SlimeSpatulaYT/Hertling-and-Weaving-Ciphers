@@ -1,0 +1,23 @@
+The Hertling Cipher and Weaving Cipher are two monoalphabetic substitution ciphers based on rearranging the standard 26-letter English alphabet.
+
+The Hertling Cipher uses an alphabetic sequence formed by alternating letters from the end and beginning of the alphabet:
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ZAYBXCWDVEUFTGSHRIQJPKOLNM
+
+This means A becomes Z, B becomes A, C becomes Y, D becomes B, and so on. The substitution alphabet can be understood as interleaving the normal alphabet with the reversed alphabet.
+
+The Weaving Cipher instead interleaves the two halves of the alphabet:
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+NAOBPCQDRESFTGUHVIWJXKYLZM
+
+Thus A becomes N, B becomes A, C becomes O, D becomes B, E becomes P, and so on. In other words, the first half of the alphabet (A–M) and the second half (N–Z) are woven together letter by letter.
+
+Both are deterministic monoalphabetic substitution systems, meaning that each plaintext letter is consistently replaced by one corresponding ciphertext letter. The names "Hertling Cipher" and "Weaving Cipher" are proposed names for these specific substitution patterns.
+
+The Hertling Cipher and Weaving Cipher were independently devised by the
+author. Because these are simple alphabetic constructions, similar or
+identical substitution patterns may have been devised previously. No claim
+is made regarding priority of invention; this document establishes the
+definitions and terminology used for these ciphers here.

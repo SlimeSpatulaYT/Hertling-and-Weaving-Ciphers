@@ -16,6 +16,19 @@ Thus A becomes N, B becomes A, C becomes O, D becomes B, E becomes P, and so on.
 
 Both are deterministic monoalphabetic substitution systems, meaning that each plaintext letter is consistently replaced by one corresponding ciphertext letter. The names "Hertling Cipher" and "Weaving Cipher" are proposed names for these specific substitution patterns.
 
+For example, if you wanted to encode "I like Five Nights at Freddy's" using either cipher, it would look like this:
+
+Plaintext:
+I like Five Nights at Freddy's
+
+Hertling Cipher:
+V fvux Cvkx Gvwdjq zj Cixbbn'q
+
+Weaving Cipher:
+R frsp Crkp Grqdjw nj Cipbbz'w
+
+Capitalization, spaces, and symbols are preserved. Only alphabetic letters are substituted.
+
 The Hertling Cipher and Weaving Cipher were independently devised by the
 author. Because these are simple alphabetic constructions, similar or
 identical substitution patterns may have been devised previously. No claim
